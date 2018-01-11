@@ -42,6 +42,7 @@
     </build>
     <dependencies>
         <dependency>
+            <!-- Cucumber -->
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>1.2.5</version>
@@ -64,7 +65,7 @@
             <version>2.12.2</version>
         </dependency>
 
-        <!-- Cucumber Reporting -->
+        <!-- junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -81,6 +82,8 @@
             <artifactId>tika-parsers</artifactId>
             <version>1.16</version>
         </dependency>
+
+        <!-- Selenium -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-remote-driver</artifactId>
